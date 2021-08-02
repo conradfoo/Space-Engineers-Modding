@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>RepairTurrets</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1500" ShootSoundName="TurretLaserFire" />
+	  <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="LaserAmmo2" />
+      </AmmoMagazines>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>SalvageTurrets</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1500" ShootSoundName="TurretLaserFire" />
+	  <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="LaserAmmo2" />
+      </AmmoMagazines>
+    </Weapon>
+	
+  </Weapons>
+</Definitions>
